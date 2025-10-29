@@ -1,0 +1,12 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/steps/page": "app/steps/page.js",
+  "/stakeholders/page": "app/stakeholders/page.js",
+  "/design/page": "app/design/page.js",
+  "/metrics/page": "app/metrics/page.js",
+  "/tetra/page": "app/tetra/page.js",
+  "/scenarios/page": "app/scenarios/page.js",
+  "/opt/page": "app/opt/page.js",
+  "/ethics/page": "app/ethics/page.js"
+}
