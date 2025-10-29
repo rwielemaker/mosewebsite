@@ -131,7 +131,7 @@ export default function DesignPage() {
   const latestMinmax = history.minmax.at(-1) ?? null;
 
   const preferenceCurves = useMemo(() => {
-    return (config.OBJECTIVE_KEYS as ObjectiveKey[]).map((objective) => {
+    return (config.OBJECTIVE_KEYS as readonly ObjectiveKey[]).map((objective) => {
       const { x: domain } = config.knots[objective];
       const min = domain[0];
       const max = domain[domain.length - 1];
