@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["*"]
     "target": "ES2021",
     "lib": ["DOM", "DOM.Iterable", "ES2021"],
     "allowJs": false,
@@ -16,10 +19,6 @@
     "incremental": true,
     "types": ["vitest/globals"],
     "plugins": [{"name": "next"}],
-    "baseUrl": ".",                // Added baseUrl
-    "paths": {                      // Added paths for alias
-      "@/*": ["./*"]
-    }
   },
   "include": [
     "next-env.d.ts",
